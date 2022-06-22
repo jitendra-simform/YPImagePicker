@@ -27,7 +27,7 @@
 		99A3C91020319227008D7E23 /* YPCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3C90F20319227008D7E23 /* YPCropView.swift */; };
 		99A3C91220319231008D7E23 /* YPCropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A3C91120319231008D7E23 /* YPCropVC.swift */; };
 		99B8C4C3208F8EE900127119 /* YPLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B8C4C2208F8EE900127119 /* YPLoadingView.swift */; };
-		99C6D6B91F1FB5C100711DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6981F1FB5C100711DB2 /* Assets.xcassets */; };
+		99C6D6B91F1FB5C100711DB2 /* YPAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6981F1FB5C100711DB2 /* YPAssets.xcassets */; };
 		99C6D6BB1F1FB5C100711DB2 /* YPLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D69F1F1FB5C100711DB2 /* YPLibraryVC.swift */; };
 		99C6D6BC1F1FB5C100711DB2 /* YPLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C6D6A01F1FB5C100711DB2 /* YPLibraryView.swift */; };
 		99C6D6BD1F1FB5C100711DB2 /* YPLibraryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6A11F1FB5C100711DB2 /* YPLibraryView.xib */; };
@@ -179,7 +179,7 @@
 		EBA37BC126F74CE0005DAAD4 /* YPFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA37BBA26F74CE0005DAAD4 /* YPFilter.swift */; };
 		EBA37BC226F74CE0005DAAD4 /* YPFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA37BBA26F74CE0005DAAD4 /* YPFilter.swift */; };
 		EBA37BC426F750DE005DAAD4 /* YPLibraryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6A11F1FB5C100711DB2 /* YPLibraryView.xib */; };
-		EBA37BC626F75144005DAAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6981F1FB5C100711DB2 /* Assets.xcassets */; };
+		EBA37BC626F75144005DAAD4 /* YPAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6981F1FB5C100711DB2 /* YPAssets.xcassets */; };
 		EBA37BC726F75151005DAAD4 /* YPImagePickerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99C6D6991F1FB5C100711DB2 /* YPImagePickerLocalizable.strings */; };
 		EBA37BC926F757FF005DAAD4 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA37BC826F757FF005DAAD4 /* Bundle+Extensions.swift */; };
 		EBA37BCA26F757FF005DAAD4 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA37BC826F757FF005DAAD4 /* Bundle+Extensions.swift */; };
@@ -247,7 +247,7 @@
 		99A3C91120319231008D7E23 /* YPCropVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPCropVC.swift; sourceTree = "<group>"; };
 		99B8C4C2208F8EE900127119 /* YPLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPLoadingView.swift; sourceTree = "<group>"; };
 		99BEB97A20A9DE5F00FFEB55 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
-		99C6D6981F1FB5C100711DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99C6D6981F1FB5C100711DB2 /* YPAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YPAssets.xcassets; sourceTree = "<group>"; };
 		99C6D69A1F1FB5C100711DB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
 		99C6D69B1F1FB5C100711DB2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
 		99C6D69C1F1FB5C100711DB2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/YPImagePickerLocalizable.strings; sourceTree = "<group>"; };
@@ -449,7 +449,7 @@
 		99C6D6971F1FB5C100711DB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				99C6D6981F1FB5C100711DB2 /* Assets.xcassets */,
+				99C6D6981F1FB5C100711DB2 /* YPAssets.xcassets */,
 				99C6D6991F1FB5C100711DB2 /* YPImagePickerLocalizable.strings */,
 			);
 			path = Resources;
@@ -782,7 +782,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8458057421819B95004F241C /* YPImagePickerLocalizable.strings in Resources */,
-				99C6D6B91F1FB5C100711DB2 /* Assets.xcassets in Resources */,
+				99C6D6B91F1FB5C100711DB2 /* YPAssets.xcassets in Resources */,
 				99C6D6BD1F1FB5C100711DB2 /* YPLibraryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -795,7 +795,7 @@
 				EBA37BC426F750DE005DAAD4 /* YPLibraryView.xib in Resources */,
 				EBA37B5B26F749C7005DAAD4 /* Assets.xcassets in Resources */,
 				EBA37BC726F75151005DAAD4 /* YPImagePickerLocalizable.strings in Resources */,
-				EBA37BC626F75144005DAAD4 /* Assets.xcassets in Resources */,
+				EBA37BC626F75144005DAAD4 /* YPAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
