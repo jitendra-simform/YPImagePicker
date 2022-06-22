@@ -13,6 +13,9 @@ extension Bundle {
         #if SWIFT_PACKAGE
         return Bundle.module
         #else
+        if let bundlePath = Bundle(for: BundleToken.self).path(forResource: "YPBundle", ofType: "bundle"), let bundle = Bundle(path: bundlePath) {
+            return bundle
+        }
         return Bundle(for: BundleToken.self)
         #endif
     }
