@@ -56,6 +56,8 @@ public struct YPColors {
     /// The default color of all navigation bars except album's.
     public var defaultNavigationBarColor: UIColor = .offWhiteOrBlack
 
+    public var cameraButtonTintColor: UIColor = .offWhiteOrBlack
+
     // MARK: - Trimmer
     
     /// The color of the main border of the view

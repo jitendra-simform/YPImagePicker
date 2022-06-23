@@ -92,8 +92,8 @@ internal class YPCameraView: UIView, UIGestureRecognizerDelegate {
         timeElapsedLabel.Top == previewViewContainer.Top + 15
         
         shotButton.centerVertically()
-        shotButton.size(84).centerHorizontally()
-        
+        shotButton.size(54).centerHorizontally()
+        shotButton.tintColor = YPConfig.colors.cameraButtonTintColor
         // Style
         backgroundColor = YPConfig.colors.photoVideoScreenBackgroundColor
         previewViewContainer.backgroundColor = UIColor.ypLabel
