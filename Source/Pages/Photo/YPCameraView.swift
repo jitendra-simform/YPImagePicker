@@ -77,7 +77,7 @@ internal class YPCameraView: UIView, UIGestureRecognizerDelegate {
             
             buttonsContainer.fillHorizontally()
             buttonsContainer.height(100)
-            buttonsContainer.Bottom == previewViewContainer.Bottom - 50
+            buttonsContainer.Bottom == previewViewContainer.Bottom - 15
         }
         
         overlayView?.followEdges(previewViewContainer)
@@ -91,8 +91,9 @@ internal class YPCameraView: UIView, UIGestureRecognizerDelegate {
         timeElapsedLabel-(15+sideMargin)-|
         timeElapsedLabel.Top == previewViewContainer.Top + 15
         
-        shotButton.centerVertically()
+        //shotButton.centerVertically()
         shotButton.size(54).centerHorizontally()
+        shotButton.Bottom == buttonsContainer.Bottom
         shotButton.tintColor = YPConfig.colors.cameraButtonTintColor
         // Style
         backgroundColor = YPConfig.colors.photoVideoScreenBackgroundColor
@@ -105,7 +106,7 @@ internal class YPCameraView: UIView, UIGestureRecognizerDelegate {
         }
         progressBar.style { p in
             p.trackTintColor = .clear
-            p.tintColor = .ypSystemRed
+            p.tintColor = YPConfig.colors.cameraButtonTintColor
         }
         flashButton.setImage(YPConfig.icons.flashOffIcon, for: .normal)
         flipButton.setImage(YPConfig.icons.loopIcon, for: .normal)
